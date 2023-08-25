@@ -18,12 +18,12 @@ body {
 
 /* ===============Navbar section============ */
 nav{
-    z-index: 9999;
-    position: fixed;
+    z-index: 99999999;
     left: 0;
     top: 0;
     width: 100%;
-    
+    overflow: hidden;
+    background: #ECF0F3;
 } 
 .navbar .navbar-brand{
     font-size: 30px;
@@ -38,3 +38,87 @@ nav{
 .nav-link:hover{
     color: #ff014f;
 }
+
+/* ===============Home section============== */
+.home {
+    position: relative;
+    padding-bottom: 30px;
+  }
+  .home .home_content {
+    padding-top: 30%;
+    align-items: center;
+    /* color: #ededed; */
+  }
+  .home .home_content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    /* line-height: 1.5; */
+  }
+  .home .home_content h1 span,.home .home_content .animated h2 {
+    color: #ff014f;
+  }
+  .home .home_content .animated {
+    width: 420px;
+    height: 80px;
+  }
+  .home .home_content .animated h2 span {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #3c3e41;
+    /* color: transparent; */
+    /* -webkit-text-stroke: 0.7px #00abf0; */
+  }
+  .home .home_content p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .home .home_content .btn_wrapper {
+    display: flex;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    padding: 20px 0;
+  }
+  .home .home_content .btn_wrapper .btn {
+    display: inline-block;
+    /* border: 2px solid transparent; */
+    transition: all linear 0.3s;
+  }
+  .home .home_content .btn_wrapper .btn:hover {
+    background: linear-gradient(135deg, #6a67ce, transparent) #fc636b;
+  }
+  .home .home_content .social {
+    display: flex;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .home .home_content .social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    border-radius: 10px;
+    transition: all linear 0.3s;
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  }
+  .home .home_content .social a:hover {
+    color: #ffffff;
+    background: linear-gradient(135deg, #6a67ce, transparent) #fc636b;
+  }
+  .home .home_img {
+    position: absolute;
+    height: 520px;
+    width: 300px;
+    overflow: hidden;
+    bottom: 0;
+  }
+  .home .home_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
