@@ -17,6 +17,12 @@ $(function(){
         fadeOutDelay: 2000,
         loop:true
       });
+      
+     
+    // lightbox.option({
+    //   'resizeDuration': 200,
+    //   'wrapAround': true
+    // })
 
       jQuery('.skillbar').each(function(){
         jQuery(this).find('.skillbar-bar').animate({
