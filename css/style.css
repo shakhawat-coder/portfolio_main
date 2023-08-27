@@ -229,15 +229,26 @@ nav{
   color: #3c3e41;
 }
 .education .education_section .education_wrapper .education_item {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
   padding: 20px;
   border: 2px solid #ff014f;
   border-radius: 10px;
   margin-bottom: 20px;
+  height: 250px;
+  transition: all linear 0.3s;
+}
+.education .education_section .education_wrapper .education_item:hover {
+  background: linear-gradient(135deg, #6a67ce, transparent) #fc636b;
+  color: #ffffff;
+  border: 2px solid transparent;
 }
 .education .education_section .education_wrapper .education_item .session {
   font-size: 24px;
   color: #ff014f;
   padding-bottom: 8px;
+}
+.education .education_section .education_wrapper .education_item:hover .session {
+  color: #ffffff;
 }
 .education .education_section .education_wrapper .education_item .session i {
   padding-right: 8px;
@@ -263,28 +274,27 @@ nav{
 }
 
 /* ===========Contact section========== */
+.contact .section_header{
+  margin-bottom: 20px;
+}
 .contact form{
   box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
   padding: 30px;
   border-radius: 20px;
 }
 .contact input {
-  color: #ededed;
+  color: #3c3e41;
   border: 2px solid transparent;
   outline: none;
 }
 .contact input.form-control:focus {
   border: 2px solid #ff014f;
-  color: #ededed;
+  color: #3c3e41;
   box-shadow: 0 0 0 0;
 }
-.contact input::-moz-placeholder {
-  color: #ededed;
-  outline: none;
-  border: none;
-}
+
 .contact input::placeholder {
-  color: #ededed;
+  color: #3c3e41;
   outline: none;
   border: none;
 }
@@ -297,13 +307,8 @@ nav{
   border: 2px solid #ff014f;
   box-shadow: 0 0 0 0;
 }
-/* .contact textarea::-moz-placeholder {
-  color: #ededed;
-  outline: none;
-  border: none;
-} */
 .contact textarea::placeholder {
-  color: #ededed;
+  color: #3c3e41;
   outline: none;
   border: none;
 }
