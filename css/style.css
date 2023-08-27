@@ -27,7 +27,7 @@ body {
     text-transform: uppercase;
 }
 .section_header h2{
-    font-size: 60px;
+    font-size: 48px;
     font-weight: 700;
     line-height: 1.5;
     color: #3c3e41;
@@ -44,9 +44,10 @@ nav{
     background: #ECF0F3;
 } 
 .navbar .navbar-brand{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     padding: 15px 0;
+    color:#ff014f ;
     /*  */
 }
 .nav-link{
@@ -173,6 +174,9 @@ nav{
 }
 
 /* ===========Portfolio section=========== */
+.portfolio {
+  padding: 0 0 20px;
+}
 .portfolio .card{
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   transition: all linear .3s;
@@ -198,4 +202,119 @@ nav{
 .portfolio .card-text{
   padding: 10px;
   line-height: 1.5;
+}
+
+/* ========Education section============ */
+.education {
+  /* padding: 50px 0; */
+}
+.education .education_header {
+  text-align: center;
+  color: #3c3e41;
+}
+.education .education_header h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+.education .education_section {
+  color: #3c3e41;
+}
+.education .education_section .title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 20px 0;
+  color: #3c3e41;
+}
+.education .education_section .education_wrapper .education_item {
+  padding: 20px;
+  border: 2px solid #ff014f;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.education .education_section .education_wrapper .education_item .session {
+  font-size: 24px;
+  color: #ff014f;
+  padding-bottom: 8px;
+}
+.education .education_section .education_wrapper .education_item .session i {
+  padding-right: 8px;
+}
+.education .education_section .education_wrapper .education_item h3 {
+  font-size: 30px;
+  line-height: 1.5;
+}
+.education .education_section .education_wrapper .education_item p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+/* ========skill section============ */
+.progress-bar {
+  background-color: #6a67ce;
+}
+.progress{
+  background: rgb(252, 99, 107);
+  background: rgba(252, 99, 107, 0.45);
+}
+.progress-bar-striped {
+  background-image: linear-gradient(45deg,rgba(252, 99, 107, 0.45) 25%,transparent 25%,transparent 50%,rgba(252, 99, 107, 0.45) 50%,rgba(252, 99, 107, 0.45) 75%,transparent 75%,transparent);
+}
+
+/* ===========Contact section========== */
+.contact form{
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+}
+.contact input {
+  color: #ededed;
+  border: 2px solid transparent;
+  outline: none;
+}
+.contact input.form-control:focus {
+  border: 2px solid #ff014f;
+  color: #ededed;
+  box-shadow: 0 0 0 0;
+}
+.contact input::-moz-placeholder {
+  color: #ededed;
+  outline: none;
+  border: none;
+}
+.contact input::placeholder {
+  color: #ededed;
+  outline: none;
+  border: none;
+}
+.contact textarea {
+  padding: 10px;
+  outline: none;
+  border: 2px solid transparent;
+}
+.contact textarea.form-control:focus {
+  border: 2px solid #ff014f;
+  box-shadow: 0 0 0 0;
+}
+/* .contact textarea::-moz-placeholder {
+  color: #ededed;
+  outline: none;
+  border: none;
+} */
+.contact textarea::placeholder {
+  color: #ededed;
+  outline: none;
+  border: none;
+}
+.contact .btn{
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  color: #3c3e41;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.contact .btn:hover{
+  background: linear-gradient(135deg, #6a67ce, transparent) #fc636b;
+  color: #ffffff;
 }
