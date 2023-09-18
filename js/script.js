@@ -30,3 +30,14 @@ $(function(){
         },2000);
     });
 });
+
+// =================back to top button=============
+let toTop = document.querySelector(".back_to_top");
+window.addEventListener("scroll", () => {
+  if (window.scrollY>10){
+    toTop.classList.add("show");
+  }else{
+    toTop.classList.remove("show");
+  }
+  
+})
