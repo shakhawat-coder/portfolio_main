@@ -28,7 +28,7 @@
     }
     .home .home_content .animated {
         width: 100%;
-        height: 60px;
+        /* height: 40px; */
     }
     .home .home_content .animated h2 span {
         font-size: 26px;

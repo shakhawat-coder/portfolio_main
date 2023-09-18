@@ -81,8 +81,8 @@ nav{
   }
   .home .home_content .animated {
     /* width: 520px; */
-    height: 100px;
-    padding: 20px 0;
+    height: 80px;
+    padding: 0 0 20px 0;
   }
   .home .home_content .animated h2 span {
     font-size: 40px;
