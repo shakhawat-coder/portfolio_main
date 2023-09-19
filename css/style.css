@@ -57,6 +57,7 @@ nav{
 .nav-link{
     color: #3c3e41;
     transition: all linear 0.3s;
+    font-size: 16px;
 }
 .nav-link:hover{
     color: #ff014f;
@@ -345,15 +346,15 @@ nav{
   font-weight: 500;
   margin-bottom: 8px;
 }
-.contact-about-area .social_area{
-  /* padding-bottom: 26px; */
-}
 .contact form{
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
   padding: 30px;
   border-radius: 20px;
   margin-top: 0;
+}
+.form-group{
+  margin-bottom: 10px;
 }
 .contact input {
   color: #3c3e41;
@@ -403,16 +404,17 @@ nav{
 }
 
 .back_to_top {
-  bottom: 80px;
+  bottom: 30px;
   font-weight: 700;
   font-size: 18px;
   position: fixed;
-  right: 30px;
+  right: 10px;
   color: #ff014f;
   width: 50px;
   height: 50px;
-  z-index: 99;
-  overflow: hidden;
+  z-index: 999999999999;
+  background: #ECF0F3;
+  overflow:hidden;
   padding: 0;
   border-radius: 100%;
   align-items: center;

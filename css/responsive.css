@@ -1,10 +1,29 @@
 @media (max-width:575.99px) {
     /* =============navbar section=============== */
+    .navbar{
+        
+    }
+    .navbar-collapse {
+        /* height: 100vh; */
+        transition: all linear .3s;
+    }
     .navbar .navbar-brand{
         padding: 0;
     }
     .navbar-toggler{
         border: 0;
+    }
+    .navbar-toggler .bar{
+        display: none;
+    }
+    .navbar-toggler .cross{
+        display: block;
+    }
+    .navbar-toggler.collapsed .bar{
+        display: block;
+    }
+    .navbar-toggler.collapsed .cross{
+        display: none;
     }
     .navbar-toggler:focus{
         outline: 0;
@@ -66,6 +85,27 @@
         font-size: 26px;
         line-height: 1.2;
     }
+    /* ============contact section============== */
+    .contact-about-area ,.contact form{
+        padding: 15px;
+    }
+    .contact input {
+        height: 45px;
+      }
+    .back_to_top {
+        bottom: 30px;
+        right: 20px;
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        opacity: 0;
+        box-shadow: none;
+        transition: all linear .3s;
+      }
+      .back_to_top:hover{
+        background: none;
+        color: #ff014f;
+      }
 }
 @media (min-width:576px) and (max-width:767.99px) {
      /* =============navbar section=============== */
@@ -74,6 +114,18 @@
     }
     .navbar-toggler{
         border: 0;
+    }
+    .navbar-toggler .bar{
+        display: none;
+    }
+    .navbar-toggler .cross{
+        display: block;
+    }
+    .navbar-toggler.collapsed .bar{
+        display: block;
+    }
+    .navbar-toggler.collapsed .cross{
+        display: none;
     }
     .navbar-toggler:focus{
         outline: 0;
@@ -108,6 +160,20 @@
         margin-bottom: 40px;
         font-size: 16px;
       }
+      .back_to_top {
+        bottom: 30px;
+        right: 20px;
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        opacity: 0;
+        box-shadow: none;
+        transition: all linear .3s;
+      }
+      .back_to_top:hover{
+        background: none;
+        color: #ff014f;
+      }
 }
 @media (min-width:768px) and (max-width:991.99px) {
     /* =============navbar section=============== */
@@ -116,6 +182,18 @@
     }
     .navbar-toggler{
         border: 0;
+    }
+    .navbar-toggler .bar{
+        display: none;
+    }
+    .navbar-toggler .cross{
+        display: block;
+    }
+    .navbar-toggler.collapsed .bar{
+        display: block;
+    }
+    .navbar-toggler.collapsed .cross{
+        display: none;
     }
     .navbar-toggler:focus{
         outline: 0;
@@ -133,6 +211,9 @@
     #home{
         /* padding: 50px 0; */
     }
+    .home .home_content {
+        padding-top: 20%;
+      }
     .home .home_content h1 {
         font-size: 50px;
         line-height: 60px;
@@ -166,4 +247,12 @@
     .portfolio .card-body{
         padding-bottom: 0;
     }
+    .back_to_top {
+        bottom: 30px;
+        right: 10px;
+      }
+      /* .back_to_top:hover{
+        background: none;
+        color: #ff014f;
+      } */
 }

@@ -21,7 +21,8 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars"></i>
+                <span class="bar"><i class="fa-solid fa-bars"></i></span>
+                <span class="cross"><i class="fa-solid fa-xmark"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex column-gap-3">
@@ -89,7 +90,7 @@
                 <span>Services</span>
                 <h2>What I Do</h2>
             </div>
-            <div class="row row-gap-4">
+            <div class="row row-gap-4 mx-2">
                 <div class=" col-md-6 col-lg-4">
                     <a href="#">
                         <div class="card">
@@ -159,7 +160,7 @@
                 <span>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</span>
                 <h2>My Portfolio</h2>
             </div>
-            <div class="row row-gap-4">
+            <div class="row row-gap-4 mx-2">
                 <div class="col col-12 col-md-6 col-lg-4  ">
                     <div class="card">
                         <div class="card_image">
@@ -244,7 +245,7 @@
             <div class="section_header text-center">
                 <h2>My Journey</h2>
             </div>
-            <div class="row">
+            <div class="row mx-1">
                 <div class="col-md-6">
                     <div class="education_section">
                         <h3 class="title">Education</h3>
@@ -305,7 +306,7 @@
             <div class="text-center section_header">
                 <h2>My Skill</h2>
             </div>
-            <div class="progress_bar col col-md-8 m-auto">
+            <div class="progress_bar col col-md-8  mx-2 m-md-auto">
                 <div class="single_bar mb-3">
                     <div class="progress_text d-flex justify-content-between pb-2">
                         <h5>HTML</h5>
@@ -421,8 +422,8 @@
             <div class="section_header text-center">
                 <h2>Feel free to connect</h2>
             </div>
-            <div class="row">
-                <div class="col-lg-5 pe-4">
+            <div class="row row-gap-4 mx-2">
+                <div class="col-lg-5 pe-md-4">
                     <div class="contact-about-area">
                         <div class="thumbnail">
                             <img src="./" alt="contact-img">
@@ -451,7 +452,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7 ps-4">
+                <div class="col-lg-7 ps-md-4">
                     <form class="row g-3">
                         <div class="col-md-6 mt-0 ">
                             <div class="form-group">
@@ -461,13 +462,13 @@
                         </div>
                         <div class="col-md-6 mt-0">
                             <div class="form-group">
-                                <label for="contact-phone">Phone Number</label>
+                                <label for="phone">Phone Number</label>
                                 <input type="number" class="form-control" name="phone" id="phone" required>
                             </div>
                         </div>
                         <div class="col-lg-12">
                             <div class="form-group">
-                                <label for="contact-email">Email</label>
+                                <label for="email">Email</label>
                                 <input type="email" class="form-control" id="email" name="email" required>
                             </div>
                         </div>
@@ -477,7 +478,13 @@
                                 <input type="text" class="form-control" id="subject" name="subject" required>
                             </div>
                         </div>
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 d-md-none">
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea name="message" class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 d-none d-md-block">
                             <div class="form-group">
                                 <label for="message">Your Message</label>
                                 <textarea name="message" class="form-control" id="message" rows="9" required></textarea>
@@ -492,7 +499,6 @@
                 </div>
             </div>
         </div>
-
     </section>
     <!-- ====================back to top buton==================== -->
     <div>
