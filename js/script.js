@@ -16,6 +16,16 @@ $(function(){
     // })
 
 });
+// =================slick slider============
+// $(document).ready(function(){
+//   $('.portfolio_wrapper').slick({
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     fade: true,
+//     arrows:false,
+//     autoplay:true,
+//   });
+// });
 
 // =================back to top button=============
 let toTop = document.querySelector(".back_to_top");

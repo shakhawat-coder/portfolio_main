@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/slick.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
@@ -18,7 +19,7 @@
     <nav class="navbar navbar-expand-lg position-fixed border border-bottom-1 solid black">
         <div class="container">
             <a class="navbar-brand fw-bold fs-1" href="#home">S.</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="bar"><i class="fa-solid fa-bars"></i></span>
@@ -160,7 +161,7 @@
                 <span>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</span>
                 <h2>My Portfolio</h2>
             </div>
-            <div class="row row-gap-4 mx-2">
+            <div class="row row-gap-4 mx-2 portfolio_wrapper">
                 <div class="col col-12 col-md-6 col-lg-4  ">
                     <div class="card">
                         <div class="card_image">
@@ -212,7 +213,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-12 col-md-6 col-lg-4  ">
+                <!-- <div class="col col-12 col-md-6 col-lg-4  ">
                     <div class="card">
                         <div class="card_image">
                             <img src="images/Surface Pro 7.png" alt="">
@@ -235,7 +236,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -284,7 +285,7 @@
                                     <i class="fa-solid fa-calendar-check"></i> 2021-running
                                 </div>
                                 <h3>Web design </h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                <p> </p>
                             </div>
                             <!-- <div class="education_item">
                                 <div class="session">
@@ -422,18 +423,18 @@
             <div class="section_header text-center">
                 <h2>Feel free to connect</h2>
             </div>
-            <div class="row row-gap-4 mx-2">
-                <div class="col-lg-5 pe-md-4">
+            <div class="row row-gap-4 mx-2 px-0">
+                <div class="col-lg-5 px-0 pe-md-4">
                     <div class="contact-about-area">
-                        <div class="thumbnail">
-                            <img src="./" alt="contact-img">
+                        <div class="mx-auto thumbnail">
+                            <img src="./images/mypic.png" alt="contact-img">
                         </div>
                         <div class="title-area">
                             <h4 class="title">Shakhawat Hossen</h4>
                             <span>Front-end Web Designer</span>
                         </div>
                         <div class="description">
-                            <p>Connect with me via and call in to my account.
+                            <p>Connect with me via call and email.
                             </p>
                             <span class="phone d-block">Phone: <a href="tel:01780551403">+01780551403</a></span>
                             <span class="mail d-block">Email: <a
@@ -480,8 +481,9 @@
                         </div>
                         <div class="col-lg-12 d-md-none">
                             <div class="form-group">
-                                <label for="message">Your Message</label>
-                                <textarea name="message" class="form-control" id="message" rows="5" required></textarea>
+                                <label for="message_s">Your Message</label>
+                                <textarea name="message" class="form-control" id="message_s" rows="5"
+                                    required></textarea>
                             </div>
                         </div>
                         <div class="col-lg-12 d-none d-md-block">
@@ -512,6 +514,7 @@
 
     <!-- =============Typed js=============== -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="./js/slick.min.js"></script>
 
     <script src="./js/script.js"></script>
 </body>

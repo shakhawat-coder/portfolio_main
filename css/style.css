@@ -300,16 +300,15 @@ nav{
 }
 .contact-about-area .thumbnail {
   height: 245px;
-  width: 100%;
+  width: 305px;
   margin-bottom: 28px;
   overflow: hidden;
   border-radius: 10px;
-  background: #3c3e41;
 }
 .contact-about-area .thumbnail img{
   height: 100%;
   width: 100%;
-  object-fit:scale-down;
+  object-fit:cover;
 }
 .contact-about-area .title-area {
   margin-bottom: 15px;
@@ -318,7 +317,6 @@ nav{
   font-size: 29px;
   line-height: 44px;
   color: var(--color-light);
-  margin-bottom: 9px;
 }
 .contact-about-area .title-area span {
   color: #3c3e41;
@@ -334,7 +332,7 @@ nav{
   font-family: var(--font-primary);
   line-height: 30px;
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .contact-about-area .description span,
 .contact-about-area .description span a{
